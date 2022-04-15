@@ -1,18 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+   #progress {
+    position: fixed;
+    z-index:9999;
+    bottom: 30px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  #progress:hover {
+    color: green; 
+  }
+   #progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+  }
 
 body, html{
+    scroll-behavior: smooth;
     height:100%;
     margin:0;
     font-size:16px;
     font-family: "Lato", sans-serif;
     font-weight: 400; 
     line-height:1.8em;
-    color: #666;
+    color: #666;    
 }
 
 
 .pcul1, .pcul2, .pcul3{
     position:relative;
-    opacity:0.70;
+    opacity:0.80;
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
