@@ -1,0 +1,57 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    /* position: relative; */
+}
+p{
+    font-size: 20px;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50.5rem;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.container-fluid {
+    padding: .2% .2%;
+  }
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  .white-section {
+    background-color: #fff;
+  }
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .social-icon {
+    padding: 20px 10px;
+  }
+.nav-item {
+    font-size: 3.5rem;
+    padding: 0 18px;
+}
+.ic{
+    padding: 50px;
+}
+.nav-link {
+    font-size: 3.2rem;
+}
