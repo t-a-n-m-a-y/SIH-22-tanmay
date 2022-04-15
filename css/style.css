@@ -19,7 +19,7 @@
     cursor: pointer;
   }
 
-  #progress:hover {
+  #progress-value:hover {
     color: green; 
   }
    #progress-value{
