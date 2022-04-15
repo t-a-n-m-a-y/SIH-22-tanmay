@@ -1,3 +1,59 @@
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+    display: none;
+}
+
+.navbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.6;
+    height: 50px;
+    z-index: 12;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+  }
+  
+  .menu-items {
+    order: 2;
+    display: flex;    
+  }
+  
+  .menu-items li {
+    list-style: none;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 800;
+    transition: color 0.3s ease-in-out;
+    font-family: "FreeMono", monospace;
+  }
+  
+  .menu-items a:hover {
+    color: #117964;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo {
+    order: 1;
+    font-size: 2.5rem;
+    margin-bottom: 0.6rem;
+    margin-left : 1rem;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -19,7 +75,7 @@
     cursor: pointer;
   }
 
-  #progress:hover {
+  #progress-value:hover {
     color: green; 
   }
    #progress-value{
