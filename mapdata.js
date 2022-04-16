@@ -305,7 +305,7 @@ var simplemaps_countrymap_mapdata={
     },
     "35": {
       name: "West Bengal",
-      description: "default",
+      description: "From the mighty Himalayas to the greenery of Gangetic planes, from serene beaches to mangrove estuaries - West Bengal is a land of many natural splendours. Adding to its charm and appeal are the magnificent heritage architecture, colourful folk festivals, beautiful arts and crafts, traditional and contemporary music, theatre and films and delicious ethnic specialities that make West Bengal truly a brilliant experience offering unique diversities.",
       color: "yellow",
       hover_color: "default",
       url: "westbengal.html"
