@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Country Map Example</title>
+    <script src= "script.js"> </script>
+    <script src="mapdata.js"></script>
+    <script src="countrymap.js"></script>
+    <meta charset="utf-8" />
+    <!-- Include bootstrap, CSS and jQuery CDN -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <style>
+    .card{
+      color: aqua;
+    }
+    
+    .map_p
+    {
+      background-color: black;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container-fluid-2">
+     <img src="azadi_pic.jpeg" alt="error" class="center"> 
+     <span>
+     <b>  A nation's culture resides in the hearts and soul of its people.  </b>
+     </span>
+     
+          </div>
+      <div class="container-fluid-3">
+                    
+        <br> 
+             </div>
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/banner1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/banner2.jpg" style="width:100%">
+   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/banner3.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="map" class="map_p"></div>
+  
+    <div class="main-block">
+        <p class="box-title">Quick Links</p>
+        <div class="content-block">
+            <div class="state-block">
+            <p class="state-title">
+                States
+            </p>
+            <div class="row">
+                <ul class="States">
+                    <li><a href="ap.html" class="state-element">Andhra Pradesh</a></li>
+                    <li><a href="arunachal.html" class="state-element">Arunachal Pradesh</a></li>
+                    <li><a href="assam.html" class="state-element">Assam</a></li>
+                    <li><a href="bihar.html" class="state-element">Bihar</a></li>
+                    <li><a href="chhattisgarh.html" class="state-element">Chattisgarh</a></li>
+                    <li><a href="goa.html" class="state-element">Goa</a></li>
+                    <li><a href="gujarat.html" class="state-element">Gujarat</a></li>
+                    <li><a href="haryana.html" class="state-element">Haryana</a></li>
+                    <li><a href="himachal.html" class="state-element">Himachal Pradesh</a></li>
+                    <li><a href="kashmir.html" class="state-element">Jammu and Kashmir</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="States">
+                    <li><a href="jharkhand.html" class="state-element">Jharkhand</a></li>
+                    <li><a href="karnataka.html" class="state-element">Karnataka</a></li>
+                    <li><a href="kerela.html" class="state-element">Kerala</a></li>
+                    <li><a href="mp.html" class="state-element">Madhya Pradesh</a></li>
+                    <li><a href="maha.html" class="state-element">Maharashtra</a></li>
+                    <li><a href="Manipur.html" class="state-element">Manipur</a></li>
+                    <li><a href="Meghalaya.html" class="state-element">Meghalaya</a></li>
+                    <li><a href="Mizoram.html" class="state-element">Mizoram</a></li>
+                    <li><a href="Nagaland.html" class="state-element">Nagaland</a></li>
+                    <li><a href="odisha.html" class="state-element">Odisha</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="States">
+                    <li><a href="punjab.html" class="state-element">Punjab</a></li>
+                    <li><a href="rajasthan.html" class="state-element">Rajasthan</a></li>
+                    <li><a href="sikkim.html" class="state-element">Sikkim</a></li>
+                    <li><a href="tamilnadu.html" class="state-element">Tamil Nadu</a></li>
+                    <li><a href="tel.html" class="state-element">Telangana</a></li>
+                    <li><a href="Tripura.html" class="state-element">Tripura</a></li>
+                    <li><a href="up.html" class="state-element">Uttar Pradesh</a></li>
+                    <li><a href="uttrakhand.html" class="state-element">Uttarakhand</a></li>
+                    <li><a href="" class="state-element">West Bengal</a></li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="ut-block">
+                <p class="state-title">
+                    UT's
+                </p>
+                <div class="row">
+                    <ul class="States">
+                        <li><a href="AaNIslands.html" class="state-element">Andaman and Nicobar Islands</a></li>
+                        <li><a href="Chandigarh.html" class="state-element">Chandigarh</a></li>
+                        <li><a href="DadraandNagaH.html" class="state-element">Dadra and Nagar Haveli</a></li>
+                        <li><a href="Daman And Diu.html" class="state-element">Daman and Diu</a></li>
+                        <li><a href="Lakshadweep.html" class="state-element">Lakhshadweep</a></li>
+                        <li><a href="delhi.html" class="state-element">Delhi-NCR</a></li>
+                        <li><a href="Puducherry.html" class="state-element">Puducherry</a></li>
+                        <li><a href="Ladak.html" class="state-element">Ladakh</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+      <div class="container-fluid-3">
+                    
+        <br> 
+             </div>
+    <div class="container-fluid">
+    <footer class="white-section" id="footer">
+   
+
+   
+
+    <a class=" fab fa-twitter ic" href=" https://twitter.com/tourismgoi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" style="text-decoration: none;" ></a>
+    <a class="fab fa-facebook ic" href=" https://www.facebook.com/ministryoftourismgoi/" style="text-decoration: none;"></a>
+    <a class=" fab fa-instagram ic" href="https://www.instagram.com/tourismgoi/?hl=en" style="text-decoration: none;"></a>
+    <a class="fas fa-envelope ic " href=" https://tourism.gov.in/about-us/indian-tourism-offices" style="text-decoration: none;"></a>
+   <p> Copyright © NotNegation, All Rights Reserved</p>
+    </div>
+  </footer>
+
+    
+    
+</body>
+    </html>
+   
+    
+     
+    
+    
+
+</html>
