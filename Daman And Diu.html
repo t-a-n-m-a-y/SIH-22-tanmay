@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="css/DamanAndDiu-style.css">
+    <script src="https://kit.fontawesome.com/c2c2346d39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+
+            <ul class="menu-items">
+                <li><a href="#home">History</a></li>
+                <li><a href="#about">Languages</a></li>
+                <li><a href="#food">Demographics</a></li>
+
+            </ul>
+            <h1 class="logo">Daman And Diu</h1>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    </script>
+    <div id="progress">
+        <span id="progress-value">
+            &#x1F871;
+        </span>
+    </div>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border" id="home">
+                DAMAN AND DIU
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>History</h2>
+        <p>
+            For over 450 years, the coastal enclaves of Daman and Diu on the Arabian Sea coast were part of Portuguese India, along with Goa and Dadra and Nagar Haveli. Goa, Daman and Diu were incorporated into the Republic of India on 19 December 1961, by military conquest. Portugal did not recognise the Indian annexation of these territories until the Carnation Revolution of 1974. The territory has also been ruled by Kolis.
+        </p>
+    </section>
+
+    <div class="pcul2">
+        <div class="ptext">
+            <span class="border" id = "about">
+                LANGUAGES
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Languages</h2>
+        <p>
+            Gujarati was the mother tongue of most of the territory's population, as they belong to the Gujarati-speaking Damaniya sub-caste. Along with Gujarati, Hindi and English are also widely used. Daman and Diu were once part of a combined union territory along with Goa before Goa became a state in 1987. The use of Portuguese, which was the territory's official language during the colonial period, is in decline and relegated to home use. It is also used as a liturgical language by the territory's Catholics. Standard Portuguese exists in a post-creole continuum while Daman and Diu Portuguese is spoken by about 10,000–12,000 people in Daman.
+        </p>
+    </section>
+
+    <div class="pcul3">
+        <div class="ptext">
+            <span class="border" id="food">
+                DEMOGRAPHICS
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Demographics</h2>
+        <p>
+            The Dadra and Nagar Haveli Wildlife Sanctuary covers 91.39 square kilometres, or about 19% of the union territory's total area. The sanctuary provides a habitat for leopard (Panthera pardus), wildcat (Felis silvestris), striped hyena (Hyaena hyaena), fox (Vulpes spp.), golden jackal (Canis aureus), nilgai (Boselaphus tragocamelus), four-horned antelope (Tetracerus quadricornis), sambar deer (Rusa unicolor), and chital deer (Axis axis), and birds including black drongo, bulbul, kingfisher, egret, hoopoe, mynah, heron, and red jungle fowl. In 2014 an additional eco-sensitive area was designated in the 100-meter buffer zone around the wildlife sanctuary, with an area of 26.57 square kilometres.
+
+        </p>
+    </section>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border">
+                DAMAN AND DIU
+            </span>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                <li class="social-items"><a href="https://www.facebook.com/DiuTourismDepartment/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/visitdnhanddd?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/diutourismut/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+
+       <div class="outer-footer">Copyright &copy NotNegation. All Rights Reserved</div>
+   </footer>
+
+
+</body>
+</html>
