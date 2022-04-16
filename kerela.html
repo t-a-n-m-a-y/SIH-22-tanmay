@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="css/ker_style.css">
+    <script src="https://kit.fontawesome.com/c2c2346d39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            
+            <ul class="menu-items">
+                <li><a href="#home">Literature</a></li>
+                <li><a href="#about">Theatre</a></li>
+                <li><a href="#food">Music</a></li>
+                
+            </ul>
+            <h1 class="logo">Kerala</h1>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    </script>
+    <div id="progress">
+        <span id="progress-value">
+            &#x1F871;
+        </span>
+    </div> 
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border" id="home">
+                KERALA
+            </span>
+        </div>
+    </div>
+    
+    <section class="section section-light">
+        <h2>Literature</h2>
+        <p>
+            The Sangam literature can be considered as the ancient predecessor of Malayalam.[608] Malayalam literature starts from the Old Malayalam period (9th–13th century CE) and includes such notable writers as the 14th-century Niranam poets and the 16th-century poet Thunchaththu Ezhuthachan, whose works mark the dawn of both the modern Malayalam language and its poetry. The tendency of the modern literature is often towards political radicalism. Malayalam literature has been presented with 6 Jnanapith awards, the second-most for any Dravidian language and the third-highest for any Indian language.
+        </p>
+    </section>
+
+    <div class="pcul2">
+        <div class="ptext">
+            <span class="border" id = "about">
+                THEATRE
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Theatre</h2>
+        <p>
+            Malayalam films carved a niche for themselves in the Indian film industry with the presentation of social themes. Since the 1980s, actors Mohanlal and Mammootty have dominated the movie industry. Mohanlal has won five National Film Awards (four for acting), while Mammootty has three National Film Awards for acting. As of 2018, Malayalam cinema has got 14 awards for the best actor, 6 for the best actress, 11 for the best film, and 13 for the best film director in the National Film Awards, India.
+        </p>
+    </section>
+
+    <div class="pcul3">
+        <div class="ptext">
+            <span class="border" id="food">
+                MUSIC
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Music</h2>
+        <p>
+            The development of classical music in Kerala is attributed to the contributions it received from the traditional performance arts associated with the temple culture of Kerala. The development of the indigenous classical music form, Sopana Sangeetham, illustrates the rich contribution that temple culture has made to the arts of Kerala. Carnatic music dominates Keralite traditional music. Raga-based renditions known as sopanam accompany kathakali performances. Panchavadyam is a form of percussion ensemble, in which artists use five types of percussion instruments. Kerala's visual arts range from traditional murals to the works of Raja Ravi Varma, the state's most renowned painter.
+        </p>
+    </section>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border">
+                KERALA
+            </span>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                <li class="social-items"><a href="https://www.facebook.com/keralatourismofficial/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/KeralaTourism?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/keralatourism/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+
+       <div class="outer-footer">Copyright &copy NotNegation. All Rights Reserved</div>
+   </footer>
+
+
+</body>
+</html>

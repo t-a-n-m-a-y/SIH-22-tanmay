@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="css/tel_style.css">
+    <script src="https://kit.fontawesome.com/c2c2346d39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            
+            <ul class="menu-items">
+                <li><a href="#home">Literature</a></li>
+                <li><a href="#about">Theatre</a></li>
+                <li><a href="#food">Music</a></li>
+                
+            </ul>
+            <h1 class="logo">Telangana</h1>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    </script>
+    <div id="progress">
+        <span id="progress-value">
+            &#x1F871;
+        </span>
+    </div> 
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border" id="home">
+                TELANGANA
+            </span>
+        </div>
+    </div>
+    
+    <section class="section section-light">
+        <h2>Literature</h2>
+        <p>
+            Poets of Telangana from the early era include Bammera Pothana, Kancherla Gopanna or Bhakta Ramadasu, Malliya Rechana, Gona Budda Reddy, Kuppam Bika, Palkurthi Somanatha, Mallinātha Sūri, and Hulukki Bhaskara. In the modern era poets include such figures as Padma Vibhushan Kaloji Narayana Rao, Sahitya Akademi Award recipient Daasarathi Krishnamacharyulu, and Jnanpith Award recipient C. Narayana Reddy, as well as P. V. Narasimha Rao. Samala Sadasiva’s book Swaralayalu on the subject of Hindustani Classical Music won the award for the year 2011.
+        </p>
+    </section>
+
+    <div class="pcul2">
+        <div class="ptext">
+            <span class="border" id = "about">
+                THEATRE
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Theatre</h2>
+        <p>
+            Tollywood (Telugu cinema industry) is a part of Indian cinema producing films in the Telugu language, and is located in the Hyderabad, Telangana neighbourhood of Film Nagar. The industry holds the Guinness World Record for the largest film production facility in the world, is one of the best tourist attractions in Hyderabad Ramoji Film City. As per the CBFC report of 2012, the industry is placed second in India, in terms of films produced yearly.
+        </p>
+    </section>
+
+    <div class="pcul3">
+        <div class="ptext">
+            <span class="border" id="food">
+                MUSIC
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Music</h2>
+        <p>
+            Telangana has a diverse variation of music from Carnatic music to folk music. The folk songs of Telangana had left a profound impact on the Statehood movement as it played a significant role in the success of the Dhoom-Dham, a cultural event that was a vital part of the agitations.
+        </p>
+    </section>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border">
+                TELANGANA
+            </span>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                <li class="social-items"><a href="https://www.facebook.com/tourismtelanganastate/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/tstourism?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/tstdc.official/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+
+       <div class="outer-footer">Copyright &copy NotNegation. All Rights Reserved</div>
+   </footer>
+
+
+</body>
+</html>
