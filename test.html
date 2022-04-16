@@ -7,21 +7,13 @@
     <script src="countrymap.js"></script>
     <meta charset="utf-8" />
     <!-- Include bootstrap, CSS and jQuery CDN -->
-    <meta name="viewport" content=
-        "width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href=
-"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-    <script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script>
-    <script src=
-"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style2.css">
   </head>
   <style>
-   
-    
     .card{
       color: aqua;
     }
@@ -36,29 +28,107 @@
     <!DOCTYPE html>
     <html lang="en">
     <head>
-      <title>Bootstrap Example</title>
-      <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Bootstrap Example</title>
+        <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     </head>
     <body>
-    
-  
-  <div id="map" class="map_p"></div>
-  <div class="container-fluid">
-  <footer class="white-section" id="footer">
+      
+    <div id="map" class="map_p"></div>
+
+    <div class="main-block">
+        <p class="box-title">Quick Links</p>
+        <div class="content-block">
+            <div class="state-block">
+            <p class="state-title">
+                States
+            </p>
+            <div class="row">
+                <ul class="States">
+                    <li><a href="#" class="state-element">Andhra Pradesh</a></li>
+                    <li><a href="#" class="state-element">Arunachal Pradesh</a></li>
+                    <li><a href="#" class="state-element">Assam</a></li>
+                    <li><a href="#" class="state-element">Bihar</a></li>
+                    <li><a href="#" class="state-element">Chattisgarh</a></li>
+                    <li><a href="#" class="state-element">Goa</a></li>
+                    <li><a href="#" class="state-element">Gujarat</a></li>
+                    <li><a href="#" class="state-element">Haryana</a></li>
+                    <li><a href="#" class="state-element">Himachal Pradesh</a></li>
+                    <li><a href="#" class="state-element">Jammu and Kashmir</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="States">
+                    <li><a href="#" class="state-element">Jharkhand</a></li>
+                    <li><a href="#" class="state-element">Karnataka</a></li>
+                    <li><a href="#" class="state-element">Kerala</a></li>
+                    <li><a href="#" class="state-element">Madhya Pradesh</a></li>
+                    <li><a href="#" class="state-element">Maharashtra</a></li>
+                    <li><a href="#" class="state-element">Manipur</a></li>
+                    <li><a href="#" class="state-element">Meghalaya</a></li>
+                    <li><a href="#" class="state-element">Mizoram</a></li>
+                    <li><a href="#" class="state-element">Nagaland</a></li>
+                    <li><a href="#" class="state-element">Odisha</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="States">
+                    <li><a href="#" class="state-element">Punjab</a></li>
+                    <li><a href="#" class="state-element">Rajasthan</a></li>
+                    <li><a href="#" class="state-element">Sikkim</a></li>
+                    <li><a href="#" class="state-element">Tamil Nadu</a></li>
+                    <li><a href="#" class="state-element">Telangana</a></li>
+                    <li><a href="#" class="state-element">Tripura</a></li>
+                    <li><a href="#" class="state-element">Uttar Pradesh</a></li>
+                    <li><a href="#" class="state-element">Uttarakhan</a></li>
+                    <li><a href="#" class="state-element">West Bengal</a></li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="ut-block">
+                <p class="state-title">
+                    UT's
+                </p>
+                <div class="row">
+                    <ul class="States">
+                        <li><a href="#" class="state-element">Andaman and Nicobar Isdlands</a></li>
+                        <li><a href="#" class="state-element">Chandigarh</a></li>
+                        <li><a href="#" class="state-element">Dadra and Nagar Haveli</a></li>
+                        <li><a href="#" class="state-element">Daman and Diu</a></li>
+                        <li><a href="#" class="state-element">Lakhshadweep</a></li>
+                        <li><a href="#" class="state-element">Delhi-NCR</a></li>
+                        <li><a href="#" class="state-element">Pondicherry</a></li>
+                        <li><a href="#" class="state-element">Ladakh</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+    <footer class="white-section" id="footer">
    
 
    
 
-    <a class=" fab fa-twitter ic" href=" https://twitter.com/tourismgoi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" style="text-decoration: none;" ></a>
-    <a class="fab fa-facebook ic" href=" https://www.facebook.com/ministryoftourismgoi/" style="text-decoration: none;"></a>
-    <a class=" fab fa-instagram ic" href="https://www.instagram.com/tourismgoi/?hl=en" style="text-decoration: none;"></a>
-    <a class="fas fa-envelope ic " href=" https://tourism.gov.in/about-us/indian-tourism-offices" style="text-decoration: none;"></a>
+    <a class=" fab fa-twitter ic" href=" https://www.twitter.com/" style="text-decoration: none;" ></a>
+    <a class="fab fa-facebook ic" href=" https://www.facebook.com/" style="text-decoration: none;"></a>
+    <a class=" fab fa-instagram ic" href=" https://www.instagram.com/" style="text-decoration: none;"></a>
+    <a class="fas fa-envelope ic " href=" https://www.gmail.com/" style="text-decoration: none;"></a>
    <p> Copyright © NotNegation, All Rights Reserved</p>
     </div>
   </footer>
