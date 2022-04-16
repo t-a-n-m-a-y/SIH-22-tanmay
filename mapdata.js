@@ -277,21 +277,21 @@ var simplemaps_countrymap_mapdata={
     },
     "31": {
       name: "Tamil Nadu",
-      description: "default",
+      description: "Situated along the Bay of Bengal in south India, Tamil Nadu is one of India's most well-known tourist destinations owing to its natural splendour, unique culture as well as religious significance. The state boasts of a plethora of religious sites that attract pilgrims, historical attractions, vast plantations, mesmerising hill stations, diverse wildlife, delicious cuisine and loads of festivities.",
       color: "MediumPurple",
       hover_color: "default",
       url: "default"
     },
     "32": {
       name: "Tripura",
-      description: "default",
+      description: "In the context of Tripura, one of the seven sisters, it is the cultural cross-currents which unite the people in a spirit of amity and harmony. The undulating hillscape of the state-sixty percent of the Tripura’s territory is still covered with lush greenery of forest-resonate with the traditional tribal music and dances on ceremonial occasions.",
       color: "orange",
       hover_color: "default",
       url: "default"
     },
     "33": {
       name: "Uttar Pradesh",
-      description: "default",
+      description: "Birthplace of the Ramayana and the Mahabharata, Uttar Pradesh has always influenced culture streams, most significant being those of Mahavira and Buddha. A blend of cultures, religions and languages, the state continues to thrive and set an example of a diverse society.",
       color: "GreenYellow",
       hover_color: "default",
       url: "default"
