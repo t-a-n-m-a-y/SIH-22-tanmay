@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="css/delhi_style.css">
+    <script src="https://kit.fontawesome.com/c2c2346d39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+
+            <ul class="menu-items">
+                <li><a href="#home">Cuisine</a></li>
+                <li><a href="#about">Climate</a></li>
+                <li><a href="#food">Festivals</a></li>
+
+            </ul>
+            <h1 class="logo">Delhi</h1>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    </script>
+    <div id="progress">
+        <span id="progress-value">
+            &#x1F871;
+        </span>
+    </div>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border" id="home">
+                DELHI
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>Cuisine</h2>
+        <p>
+            As India's national capital and centuries old Mughal capital, Delhi influenced the food habits of its residents and is where Mughlai cuisine originated. Along with Indian cuisine, a variety of international cuisines are popular among the residents.The dearth of food habits among the city's residents created a unique style of cooking which became popular throughout the world, with dishes such as Kebab, biryani, tandoori. The city's classic dishes include butter chicken, dal makhani, shahi paneer, aloo chaat, chaat, dahi bhalla, kachori, gol gappe, samosa, chole bhature, chole kulche, gulab jamun, jalebi and lassi.
+        </p>
+    </section>
+
+    <div class="pcul2">
+        <div class="ptext">
+            <span class="border" id = "about">
+                CLIMATE
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Climate</h2>
+        <p>
+            Delhi features a dry-winter humid subtropical climate (Köppen Cwa) bordering a hot semi-arid climate (Köppen BSh). The warm season lasts from 21 March to 15 June with an average daily high temperature above 39 °C (102 °F). The hottest day of the year is 22 May, with an average high of 40 °C (104 °F) and low of 28 °C (82 °F).The cold season lasts from 26 November to 9 February with an average daily high temperature below 20 °C (68 °F). The coldest day of the year is 4 January, with an average low of 2 °C (36 °F) and high of 14 °C (57 °F).In early March, the wind direction changes from north-westerly to south-westerly. From April to October the weather is hot. The monsoon arrives at the end of June, along with an increase in humidity.The brief, mild winter starts in late November, peaks in January and heavy fog often occurs.
+        </p>
+    </section>
+
+    <div class="pcul3">
+        <div class="ptext">
+            <span class="border" id="food">
+                FESTIVALS
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Festivals</h2>
+        <p>
+            Delhi's association and geographic proximity to the capital, New Delhi, has amplified the importance of national events and holidays like Republic Day, Independence Day (15 August) and Gandhi Jayanti. On Independence Day, the Prime Minister addresses the nation from the Red Fort. The Republic Day Parade is a large cultural and military parade showcasing India's cultural diversity and military strength.Over the centuries, Delhi has become known for its composite culture, and a festival that symbolises this is the Phool Walon Ki Sair, which takes place in September. Flowers and pankhe—fans embroidered with flowers—are offered to the shrine of the 13th-century Sufi saint Khwaja Bakhtiyar Kaki and the Yogmaya Temple, both situated in Mehrauli.
+
+        </p>
+    </section>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border">
+                DELHI
+            </span>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                <li class="social-items"><a href="https://www.facebook.com/delhitourism/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/tourism_delhi?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/delhitourism_official/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+
+       <div class="outer-footer">Copyright &copy NotNegation. All Rights Reserved</div>
+   </footer>
+
+
+</body>
+</html>
