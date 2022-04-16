@@ -170,107 +170,107 @@ var simplemaps_countrymap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    "16": {
+   "16": {
       name: "Jharkhand",
-      description: "default",
+      description: "Jharkhand has a unique geographical, demographic and historical composition.The name “Jharkhand” means “The Land of Forests” as the most of land is covered by forest. Jharkhand has underlined the distinctive tribal heritage and culture of the region as the primary reason for alternative administrative and political arrangements.There are several folk dances in Jharkhand, including Jhumair, Domkach, Lahasua, Vinsariya, Jhumta, Fagua, Painki, and Chhau.The major cultural festivals of Jharkhand includes karma, jitia, nawakhani, Sohrab/bandna, holi, sarna.",
       color: "MediumPurple",
       hover_color: "default",
       url: "default"
     },
     "17": {
       name: "Karnataka",
-      description: "default",
+      description: "Karnataka has a distinct art and culture informed by a long history of diverse linguistic and religious ethnicity. Apart from Kannadigas, Karnataka is home to Tuluvas, who also consider themselves as Kannadigas. Minor populations of Tibetan Buddhists and Siddhi tribes plus a few other ethnic groups also live in. The traditional folk arts are major theatrical forms of coastal Karnataka. Contemporary theatre culture in Karnataka is one of the most vibrant in India with organizations like Ninasam, Ranga Shankara and Rang on foundations laid down by the Gubbi Veeranna Nataka Company. Veeragase, Kamsale and Dollu Kunitha are popular dance forms. Bharatanatya also enjoys wide patronage in Karnataka.",
       color: "HotPink",
-      hover_color: "default",
+      hover_color: "karnataka.html",
       url: "default"
     },
     "18": {
       name: "Kerala",
-      description: "default",
+      description: "Kerala’s cultural heritage is centuries old. The culture of Kerala is an amalgam of native art forms, language, literature, architectural style, music, festivals, cuisine, archaeological monuments, heritage centres and so on. There are many cultural institutions dedicated to protect these as well.The artistic field of Kerala comprises ancient classical art, folk art as well as modern artistic forms like the cinema. The arts of Kerala can be divided generally into audio - visual arts, and also into classical art forms and folk art forms.  ",
       color: "GreenYellow",
       hover_color: "default",
-      url: "default"
+      url: "kerela.html"
     },
     "19": {
       name: "Lakshadweep",
-      description: "default",
+      description: "Lakshadweep offers tourists with not just a mesmerising natural setting but attracts them with its simplistic lifestyle and vibrant culture. Its diversified traditions and cultural practices add on to the overall charm of Lakshadweep. The Lakshadweep islands consist of a few prominent kinds of tribes namely Koyas, Malmis, Melacheris, Aminidivis and Manikfanss. The culture of Lakshadweep has been prominently influenced by these five major tribes.The main language of the people in Lakshadweep is Malayalam.Most of the people on the island follow Islamic religion which also defines the culture of Lakshadweep to some extent. However, there are other ethnic groups as well living on the islands.",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "20": {
       name: "Madhya Pradesh",
-      description: "default",
+      description: "Madhya Pradesh is a state present in central India and is also called the “Heart of India“.The vibrant colours, unique attires, and melodious music make all the folk dances in Madhya Pradesh exquisite. Gaur, Muria, Sugga, Saila, Karma, Kaksar, Chithirai Festival dance are notable and have their connotation.The fine artworks, hurled right from the heart of the nation endure a worldwide audience. This innate talent helps in producing handicrafts like - Woven cotton or silk sarees, fabrics with block prints, stuffed toys, floor coverings, bamboo work, cane work, jute work,  folk paintings, ornaments, dolls and papier-mache. ",
       color: "HotPink",
       hover_color: "default",
       url: "default"
     },
     "21": {
       name: "Maharashtra",
-      description: "default",
+      description: "defMaharashtra is the third largest state of India in terms of land area. It has a long history of Marathi saints of Varakari religious movement, such as Dnyaneshwar, Namdev, Chokhamela, Eknath and Tukaram which forms the one of bases of the culture of Maharashtra or Marathi culture.[1] Maharashtra had huge influence over India under the 17th-century king Chatrapati Shivaji Maharaj of the Maratha Empire and his concept of Hindavi Swarajya which translates to self-rule of people.[2]The state of Maharashtra spans multiple cultures which includes cultures related to Hindus, Muslims, Buddhists, Sikhs, Christians, etc.Lord Ganesha, Maruti, Mahadeo in form of Shivlinga, Khandoba, Kalubai devi, and Lord Vitthal are some of the deities worshipped by Hindus of Maharashtra. Each has its own cultural identity in the form of different dialects of Marathi language,[3] folk songs, food, dress and ethnicity.ault",
       color: "MediumPurple",
       hover_color: "default",
       url: "default"
     },
     "22": {
       name: "Manipur",
-      description: "default",
+      description: "Manipur is a mosaic of ancient traditions and rich cultural patterns. In the field of art and culture, the state is best represented by its classical and folk dance forms. The Raas Leela, the epitome of Manipuri classical dance, is inter-woven through the celestial and eternal love of Radha and Krishna as has been described in the Hindu scriptures. This graceful dance reveals the sublime and transcendental love of Krishna and Radha and the Gopi’s devotion to Lord Krishna. Lai Haraoba, a spring festival celebrated during April-May, is symbolised by a traditional and symbolistic dance performed for peace and prosperity. ",
       color: "orange",
       hover_color: "default",
       url: "default"
     },
     "23": {
       name: "Meghalaya",
-      description: "default",
+      description: "The main ethnic communities of Meghalaya include Khasis, Garo, and Jaintia. It is believed that people from these communities came to Meghalaya from South East Asia. The people of Meghalaya are known for their cheerful nature and adaptability.English is the most spoken and official language of the state. The other main languages of the state include Khasi and Garo. Meghalaya has three main tribes Khasi, Jaintias, and Garos, and the traditional dress of each tribe is peculiar.The main food of the residents here is rice, dried fish, and meat, it can be called a “Non-vegetarian’s” paradise.‘Pamblang-Nongkrem‘ of Meghalaya is a major religious festival of specialties. Which is celebrated for five days. It is also known as ‘Nongkrem‘.",
       color: "orange",
       hover_color: "default",
       url: "default"
     },
     "24": {
       name: "Mizoram",
-      description: "default",
+      description: "The culture of Mizoram is quite extensive and rich due to the different types of tribes living in Mizoram. It reflects the roots of the Mizos. Known as the “Songbird of the Northeast“, the inhabitants of Mizoram are traditional and simple people still following the technology free rules today.In Mizoram, people of most of the tribes speak Mizo language.The major religion practiced is Christianity.The food of Mizoram can be seen as a mixture of North Indian and Chinese ingredients.The Mizo society has been quite famous for its traditional folk dances. These dances have always been a part of the festivals and celebrations of Mizoram.",
       color: "HotPink",
       hover_color: "default",
       url: "default"
     },
     "25": {
       name: "Nagaland",
-      description: "default",
+      description: "Nagaland has a rich diversity of ethnic groups, languages, religions, climates and landscapes.Nagaland is a land of unique culture and traditions. Nagaland is known for its exquisite bamboo and cane products, weaving and wood carving.Nagaland is a land of unique culture and traditions. Nagaland is known for its exquisite bamboo and cane products, weaving and wood carving. The art and craft of Nagaland has a uniqueness of its own. They are very intricately made and beautiful to look at.Cane and bamboo product making is one of the prime occupations of the tribal of Nagaland.",
       color: "GreenYellow",
       hover_color: "default",
       url: "default"
     },
     "26": {
       name: "Orissa",
-      description: "default",
+      description: "Odisha has had a continuous tradition of dharmic religions especially Hinduism, Buddhism and Jainism.Odisha has a glorious tradition of music. The figures or dancers and musicians carved on ancient temple walls, speak of Odisha's rich musical heritage. Odissi Music is a classical form consisting of all the necessary ingredients common to Hindustani and Karnatic Music. Odissi sangita is a synthesis of four classes of music, i.e. dhruvapada, chitrapada, chitrakala and panchal, described in two treatises .Odisha is a confluence of the Aryan, Dravidian and Adivasi cultures. Most festivals in the state bring out some part of these cultures and celebrate their religion by way of festivals which span out the entire year.",
       color: "HotPink",
       hover_color: "default",
       url: "default"
     },
     "27": {
       name: "Puducherry",
-      description: "default",
+      description: "Puducherry still has the French flavor in it as one can see by the grand colonial mansions, beautiful boulevards, and placid promenades, spellings in signboards and buildings, names of roads and public places.Due to the diversity in the culture of Puducherry, many languages are used here. Most of the people of the state use Tamil, Telugu and Malayalam languages.The dress of Puducherry is much similar to Tamil Nadu dress or a mixture of Tamil and French cultural attires.Puducherry is known for its food. Naturally, the French have an ancient culinary tradition that married with local cuisines to create what one writer calls a “mosaic of culinary integration“.Fairs and Festivals of Puducherry are reflective of the cultural heritage of the place.",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "28": {
       name: "Punjab",
-      description: "default",
+      description: "Punjab has one of the oldest and richest cultures of the world. Its diversity and uniqueness is evident in the Punjabi poetry, philosophy, spirituality, education, artistry, music, cuisine, science, technology, military warfare, architecture, traditions, values and history.Punjabis celebrate numerous religious and seasonal festivals, such as Dussehra, Diwali, Baisakhi, and many more. There are numerous anniversary celebrations as well in honour of the Gurus (the 10 religious leaders of Sikhism) and various saints.The traditional dress for Punjabi men is ‘Punjabi Kurta’ and ‘Tehmat’, especially the popular Muktsari style, which is being replaced by the kurta and pajama in the modern day Punjab.",
       color: "orange",
       hover_color: "default",
       url: "default"
     },
     "29": {
       name: "Rajasthan",
-      description: "default",
+      description: "Rajasthan, the land of Kings, has royal grandeur and a glorious history; it is a charming and captivating state of India.Rajasthan has cultural traditions that reflect the ancient Indian way of life. Rajasthani society is a blend of predominantly Hindus with sizable minorities of Muslims and Jains.Traditionally men wear dhotis, kurta, angarkha, and paggar or safa (kind of turban headgear). Traditional Chudidar payjama (puckered trousers) frequently replaces dhoti in different regions.",
       color: "yellow",
       hover_color: "default",
-      url: "default"
+      url: "rajasthan.html"
     },
     "30": {
       name: "Sikkim",
-      description: "default",
+      description: "Sikkim is a beautiful land of manifold tribes and races of people living together. Nepali is the primary language of Sikkim while Lepcha and Sikkimese (Bhutia) are also spoken in some part of this north-east province. The food of the people of Sikkim indicates the culture of this state which is a mélange of India, Nepal, Bhutan, and Tibet.Majority of the people of Sikkim follow Buddhism so the festival celebrated here are associated with the Buddhist and they are celebrated with a lot of pomp and as per the Buddhist calendar.The most fascinating form of ritual dance that is performed by the Lamas is “Chaam” which involves colorful masks and amazing musical instruments.",
       color: "HotPink",
       hover_color: "default",
       url: "default"
