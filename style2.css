@@ -18,6 +18,24 @@ a{
 .container-fluid {
     padding: .2% .2%;
   }
+.container-fluid-2 {
+  padding: .01% .01%;
+  image-orientation: initial;
+}
+.container-fluid-3 {
+  padding: .1% .1%;
+  background-color: #dbf4ed;
+  
+}
+img{
+ width: 150px;
+ height: 100px;
+ vertical-align: middle;
+}
+span{
+  font-size: 30px;
+  text-align: middle;
+}
   @media (max-width: 1028px) {
     #title {
       text-align: center;
