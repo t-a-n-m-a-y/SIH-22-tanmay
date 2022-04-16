@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="css/sikkim-style.css">
+    <script src="https://kit.fontawesome.com/c2c2346d39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            
+            <ul class="menu-items">
+                <li><a href="#home">Cuisine</a></li>
+                <li><a href="#about">Flora</a></li>
+                <li><a href="#food">Fauna</a></li>
+                
+            </ul>
+            <h1 class="logo">Sikkim</h1>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    </script>
+    <div id="progress">
+        <span id="progress-value">
+            &#x1F871;
+        </span>
+    </div> 
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border" id="home">
+                SIKKIM
+            </span>
+        </div>
+    </div>
+    
+    <section class="section section-light">
+        <h2>Cuisine</h2>
+        <p>
+            In the cuisine of Sikkim, in northeastern India, rice is a staple food, and fermented foods traditionally constitute a significant portion of the cuisine.Nepalese cuisine is popular, as Sikkim is the only state of India with an ethnic Nepali majority. Many restaurants in Sikkim serve various types of Nepalese cuisine, such as the Limbu, Newa and Thakali cuisines. Tibetan cuisine has also influenced Sikkimese cuisine. The combination of various cuisines has resulted in one specific cuisine.The geography and modes of food production within Sikkim inform the food culture within the state.The economy of Sikkim is largely agrarian. Due to the state's mountainous terrain, much of the land is unsuitable for farming, so terrace farming, particularly of rice, is common.
+
+        </p>
+    </section>
+
+    <div class="pcul2">
+        <div class="ptext">
+            <span class="border" id = "about">
+                FLORA
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Flora</h2>
+        <p>
+            Sikkim is situated in an ecological hotspot of the lower Himalayas, one of only three among the ecoregions of India. The forested regions of the state exhibit a diverse range of fauna and flora. Owing to its altitudinal gradation, the state has a wide variety of plants, from tropical species to temperate, alpine and tundra ones, and is perhaps one of the few regions to exhibit such a diversity within such a small area. Nearly 81 per cent of the area of Sikkim comes under the administration of its forest department.Sikkim is home to around 5,000 species of flowering plants, 515 rare orchids, 60 primula species, 36 rhododendron species, 11 oak varieties, 23 bamboo varieties, 16 conifer species, 362 types of ferns and ferns allies, 8 tree ferns, and over 900 medicinal plants.
+        </p>
+    </section>
+
+    <div class="pcul3">
+        <div class="ptext">
+            <span class="border" id="food">
+                FAUNA
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Fauna</h2>
+        <p>
+            The fauna of Sikkim include the snow leopard,musk deer, Himalayan tahr, red panda, Himalayan marmot, Himalayan serow, Himalayan goral, muntjac, common langur, Asian black bear, clouded leopard,marbled cat, leopard cat, dhole, Tibetan wolf, hog badger, binturong, and Himalayan jungle cat. Among the animals more commonly found in the alpine zone are yaks, mainly reared for their milk, meat, and as a beast of burden. The avifauna of Sikkim include the impeyan pheasant, crimson horned pheasant, snow partridge, Tibetan snowcock, bearded vulture and griffon vulture, as well as golden eagles, quails, plovers, woodcocks, sandpipers, pigeons, Old World flycatchers, babblers and robins. Sikkim has more than 550 species of birds, some of which have been declared endangered.
+
+        </p>
+    </section>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border">
+                SIKKIM
+            </span>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                <li class="social-items"><a href="https://www.facebook.com/sikkimtourismindia/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/tourismsikkim"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/sikkim.tourism/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+
+       <div class="outer-footer">Copyright &copy NotNegation. All Rights Reserved</div>
+   </footer>
+
+
+</body>
+</html>
