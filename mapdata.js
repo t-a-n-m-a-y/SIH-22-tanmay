@@ -312,7 +312,7 @@ var simplemaps_countrymap_mapdata={
     },
     "36": {
       name: "Jammu And Kashmir",
-      description: "Here it goes",
+      description: "Jammu and Kashmir is a region administered by India as a union territory and consisting of the southern portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947, and between India and China since 1962. The Line of Control separates Jammu and Kashmir from the Pakistani-administered territories of Azad Kashmir and Gilgit-Baltistan in the west and north. It lies to the north of the Indian states of Himachal Pradesh and Punjab and to the west of Ladakh, which is also subject to the dispute as a part of Kashmir, and administered by India as a union territory.",
       color: "MediumPurple",
       hover_color: "default",
       url: "kashmir.html"
@@ -326,7 +326,7 @@ var simplemaps_countrymap_mapdata={
     },
     "38": {
       name: "Ladakh",
-      description: "default",
+      description: "Ladakh was established as a union territory of India on 31 October 2019, following the passage of the Jammu and Kashmir Reorganization Act. Prior to that, it was part of the Jammu and Kashmir state. Ladakh  is a region administered by India as a union territory, which constitutes a part of the larger Kashmir region and has been the subject of dispute between India, Pakistan, and China since 1947. It extends from the Siachen Glacier in the Karakoram range to the north to the main Great Himalayas to the south. The eastern end, consisting of the uninhabited Aksai Chin plains, is claimed by the Indian Government as part of Ladakh, and has been under Chinese control since 1962. In the past Ladakh gained importance from its strategic location at the crossroads of important trade routes, but as the Chinese authorities closed the borders between Tibet Autonomous Region and Ladakh in the 1960s, international trade dwindled. Since 1974, the Government of India has successfully encouraged tourism in Ladakh. As Ladakh is strategically important, the Indian military maintains a strong presence in the region. ",
       color: "GreenYellow",
       hover_color: "default",
       url: "Ladak.html"
