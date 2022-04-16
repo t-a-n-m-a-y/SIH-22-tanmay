@@ -210,7 +210,7 @@ var simplemaps_countrymap_mapdata={
       description: "Maharashtra is the third largest state of India in terms of land area. It has a long history of Marathi saints of Varakari religious movement, such as Dnyaneshwar, Namdev, Chokhamela, Eknath and Tukaram which forms the one of bases of the culture of Maharashtra or Marathi culture.The state of Maharashtra spans multiple cultures which includes cultures related to Hindus, Muslims, Buddhists, Sikhs, Christians, etc.Lord Ganesha, Maruti, Mahadeo in form of Shivlinga, Khandoba, Kalubai devi, and Lord Vitthal are some of the deities worshipped by Hindus of Maharashtra. Each has its own cultural identity in the form of different dialects of Marathi language,folk songs, food, dress and ethnicity.",
       color: "MediumPurple",
       hover_color: "default",
-      url: "default"
+      url: "maha.html"
     },
     "22": {
       name: "Manipur",
