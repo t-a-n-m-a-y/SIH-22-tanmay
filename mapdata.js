@@ -298,7 +298,7 @@ var simplemaps_countrymap_mapdata={
     },
     "34": {
       name: "Uttarakhand",
-      description: "default",
+      description: "Uttarakhand also known as Uttaranchal, is a state in the northern part of India. It is often referred to as the 'Devbhumi' (literally 'Land of the Gods') due to its religious significance and numerous Hindu temples and pilgrimage centers found throughout the state. Uttarakhand is known for the natural environment of the Himalayas, the Bhabar and the Terai regions. It borders the Tibet Autonomous Region of China to the north; the Sudurpaschim Province of Nepal to the east; the Indian states of Uttar Pradesh to the south and Himachal Pradesh to the west and north-west. The state is divided into two divisions, Garhwal and Kumaon, with a total of 13 districts. The winter capital of Uttarakhand is Dehradun, the largest city of the state, which is a railhead. Bhararisain, a town in Chamoli district, is the summer capital of Uttarakhand.The High Court of the state is located in Nainital.",
       color: "yellow",
       hover_color: "default",
       url: "uttrakhand.html"
@@ -319,7 +319,7 @@ var simplemaps_countrymap_mapdata={
     },
     "37": {
       name: "Telangana",
-      description: "default",
+      description: "Telangana is a state in India situated on the south-central stretch of the Indian peninsula on the high Deccan Plateau. It is the eleventh-largest state and the twelfth-most populated state in India with a geographical area of 112,077 km2 (43,273 sq mi) and 35,193,978 residents as per 2011 census. On 2 June 2014, the area was separated from the northwestern part of Andhra Pradesh as the newly formed state with Hyderabad as its capital. Its other major cities include Warangal, Nizamabad, Khammam, Karimnagar and Ramagundam. The terrain of Telangana region consists mostly of part of the Deccan Plateau and dense forests covering an area of 27,292 km2 (10,538 sq mi). As of 2019, the state of Telangana is divided into 33 districts.",
       color: "orange",
       hover_color: "default",
       url: "tel.html"
