@@ -1,0 +1,227 @@
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+    display: none;
+}
+
+.navbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #ffe5b4;
+    color: #000;
+    opacity: 0.6;
+    height: 50px;
+    z-index: 12;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+  }
+  
+  .menu-items {
+    order: 2;
+    display: flex;    
+  }
+  
+  .menu-items li {
+    list-style: none;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 800;
+    transition: color 0.3s ease-in-out;
+    font-family: "FreeMono", monospace;
+  }
+  
+  .menu-items a:hover {
+    color: #117964;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo {
+    order: 1;
+    font-size: 2.5rem;
+    margin-bottom: 0.6rem;
+    margin-left : 1rem;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+   #progress {
+    position: fixed;
+    z-index:9999;
+    bottom: 30px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  #progress-value:hover {
+    color: green; 
+  }
+   #progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+  }
+
+body, html{
+    scroll-behavior: smooth;
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400; 
+    line-height:1.8em;
+    color: #666;    
+}
+
+
+.pcul1, .pcul2, .pcul3{
+    position:relative;
+    opacity:0.80;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.pcul1{
+    background-image:url('../images/Mizoram1.png');
+    min-height:100%;
+}
+
+
+.pcul2{
+    background-image:url('../images/Mizoram2.png');
+    min-height:400px;
+}
+
+
+.pcul3{
+    background-image:url('../images/Mizoram3.png');
+    min-height:400px;
+}
+
+.section{
+    text-align:center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+
+}
+
+.section-light{
+    background-color: #282e34;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.section-dark{
+    background-color: #f4f4f4;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color : #000;
+    font-size: 27px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding:20px;
+}
+
+.ptext .border.trans{
+    background-color:transparent; 
+}
+
+.inner-footer{
+  margin:0;
+  padding:0;
+  background-color: #ffffff;
+}
+
+.social-links{
+  display:flex;
+  margin-left:60px;
+}
+
+.social-links ul{
+  align-items: center;
+  padding:10px;
+  display:flex;
+  width:300px;
+  height:40px;
+  margin:auto;
+  /* color :rgb(31, 29, 29); */
+}
+
+.social-items{
+  list-style:none;    
+  
+}
+
+.social-items a{
+  padding: 0px 25px;
+  font-size:28px;
+  color : rgb(8, 8, 8);
+  text-decoration: none;
+  
+}
+
+.social-items a:hover{
+  color:rgb(0, 2, 2);
+}
+
+
+.outer-footer{
+  background-color: #666;
+  color:#ffffff;
+  text-align: center;
+}
+
+
+@media(max-width:568px){
+    .pcul1, .pcul2, .pcul3{
+        background-attachment: scroll;
+    }
+}
