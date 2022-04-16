@@ -298,7 +298,7 @@ var simplemaps_countrymap_mapdata={
     },
     "34": {
       name: "Uttaranchal",
-      description: "default",
+      description: "Uttarakhand, also known as Dev Bhoomi, has been the centre of religious and spiritual knowledge for ages.Uttarakhand has a ‘Pahari’ culture. Folk dance, music and festivals are a huge part of Uttarakhand culture. The land is blessed with the beauty of the Himalayas and ancient temples.The typical Hindu festivals such as Diwali, Holi and Navratri are celebrated here with much zeal. Along with this, the Garhwali culture has its festivals such as:Harela parv, phooldei, basant panchama, khichdi sankrant, ganga Dussehra.Jagars are a form of religious offering to our ancestors and their ghosts. Epics, such as Mahabharata and Ramayana, are recited. It is said the gods come down to earth and dance along with the people.",
       color: "yellow",
       hover_color: "default",
       url: "default"
@@ -312,21 +312,21 @@ var simplemaps_countrymap_mapdata={
     },
     "36": {
       name: "Jammu And Kashmir",
-      description: "Here it goes",
+      description: "Jammu Kashmir is a diverse blend of various cultures People from different religious and social practices of Muslim, Hindu, Sikh, and Buddhist have created a composite culture of the state which is called Kashmiriyat.Costumes of Jammu and Kashmir are well known for their embroidery and intricate designs, which reflect the richness of the culture and landscape of the region.The Pheran is a prominent attire for Kashmiri women. The Dumhal is a famous dance in the Kashmir valley, performed by men of the Wattal region. The women perform the Rouff, another traditional folk dance.",
       color: "MediumPurple",
       hover_color: "default",
       url: "default"
     },
     "37": {
       name: "Telangana",
-      description: "default",
+      description: "The Culture of Telangana in India has a cultural history of about 5,000 yearsTelangana is a storehouse of creativity which is prevalent in its collection of art and craft.  Developed in the 16th century, the Golconda style is an old method of blending foreign techniques. A dash of bright gold and white colour is used in the Golconda style.Telangana is home to diverse culture and religions. Bathukamma is a part of Dasara festivities which is unique to Telangana. Bonalu is another Hindu Festival, celebrated during  June/ July where Goddess Maa Kali is worshipped.",
       color: "orange",
       hover_color: "default",
       url: "default"
     },
     "38": {
       name: "Ladakh",
-      description: "default",
+      description: "dThe culture of Ladakh refers to the traditional customs, belief systems, political systems that are followed by Ladakhi people in India. The languages, religions, dance, music, architecture, food, and customs of the Ladakh region are similar to neighbouring Tibet.Ladakhi is the traditional language of Ladakh. The popular dances in Ladakh include the khatok chenmo, cham, etc. People of Ladakh also celebrate several festivals throughout the year, some of the most famous are Hemis Tsechu and Losar.efault",
       color: "GreenYellow",
       hover_color: "default",
       url: "default"
