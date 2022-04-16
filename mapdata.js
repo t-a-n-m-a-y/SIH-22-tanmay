@@ -84,42 +84,42 @@ var simplemaps_countrymap_mapdata={
       description: "Andhra Pradesh is known as Koh-Noor of India and there are many places to visit in this beautiful state. It is famous for its rich natural resources, rivers, historical monuments, temple and much more.",
       color: "GreenYellow",
       hover_color: "default",
-      url: "default"
+      url: "ap.html"
     },
     "3": {
       name: "Arunachal Pradesh",
       description: "Popularly known as ‘Land of the Dawn-lit-Mountains’, Arunachal Pradesh is India’s remotest state and the first Indian soil to greet the rising sun. Located on the northeastern tip of India, this beautiful land is endowed with dazzling array of flora and fauna that is sure to allure any tourist. The misty hills, sparkling rivers, gurgling waterfalls add charm to the beauty of this incredible land. Arunachal Pradesh is dotted with innumerable historical monuments and archeological remains, which bear testimony to its rich cultural heritage.",
       color: "HotPink",
       hover_color: "default",
-      url: "default"
+      url: "arunachal.html"
     },
     "4": {
       name: "Assam",
       description: "Assam, located in the North-East of India, is one of the most sought after destinations in the country because of its magnificent tourism products like exotic wildlife, awesome scenic beauty, colorful fairs and festivals, age old historical monuments, lush green tea gardens and golf courses, massive river Brahmaputra and its tributaries, serene and tranquil country side and warm and hospitable people.",
       color: "MediumPurple",
       hover_color: "default",
-      url: "default"
+      url: "assam.html"
     },
     "5": {
       name: "Bihar",
       description: "Bihar is a state full of history and spiritual significance. Located in the eastern part of India, this state is known as the land of monasteries. Described as the birthplace of Buddhism and the home to the two greatest Indian dynasties, the Mauryas and the Guptas, Bihar is no less than an 'Uphar' to the land of India.",
       color: "orange",
       hover_color: "default",
-      url: "default"
+      url: "bihar.html"
     },
     "6": {
       name: "Chandigarh",
       description: "Chandigarh is an Union Territory that serves as the capital to the states of Punjab and Haryana. Planned by the Swiss-French architect Le Corbusier, it is considered one of the most well planned cities in the world and ranked the happiest city in India. Its Capitol Complex was declared as an UNESCO World Heritage site in 2016. ",
       color: "orange",
       hover_color: "default",
-      url: "default"
+      url: "Chandigarh.html"
     },
     "7": {
       name: "Chhattisgarh",
       description: "Chhattisgarh, situated in the heart of India, is endowed with a rich cultural heritage and attractive natural diversity. The state is full of ancient monuments, rare wildlife, exquisitely carved temples, Buddhist sites, palaces, waterfalls, caves, rock paintings, and hill plateaus. Mainpat is mini Shimla of Chhattisgarh. There are many waterfalls, hot springs, caves, temples, dams and national parks, tiger reserves and wildlife sanctuaries in Chhattisgarh. India's first man-made jungle safari is also situated in Raipur.",
       color: "yellow",
       hover_color: "default",
-      url: "default"
+      url: "chhattisgarh.html"
     },
     "8": {
       name: "Dadra And Nagar Haveli",
@@ -154,35 +154,35 @@ var simplemaps_countrymap_mapdata={
       description: "Stretches out into the Arabian Sea, with a hint of the desert and with a coastline of 1600 kms long is Gujarat – the home state of Mahatma Gandhi, the Father of Nation. It is renowned for its beaches, temple towns and historic capitals. Wildlife sanctuaries, hill resorts and natural grandeur are gifts of Gujarat. Sculpture, handicrafts, arts, festivals also make the state rich.",
       color: "GreenYellow",
       hover_color: "default",
-      url: "default"
+      url: "gujarat.html"
     },
     "13": {
       name: "Haryana",
       description: "The name Haryana means the abode of God. It represents the face of modern India and is a vivid kaleidoscope of diverse landscapes, showcasing magnificent archaeology and celebrating art and culture. From being referred to as ‘heaven on earth’ in ancient Sanskrit texts to being the bedrock of Indus valley civilization, Haryana has one of the most unique histories.",
       color: "MediumPurple",
       hover_color: "default",
-      url: "default"
+      url: "harayana.html"
     },
     "14": {
       name: "Himachal Pradesh",
       description: "Host to the Dalai Lama, Himachal Pradesh has a strong Tibetan presence, reflected in its Buddhist temples and monasteries, as well as its vibrant Tibetan New Year celebrations. The Himalayas are home to scenic mountain towns and resorts in Manali and Dalhousie. The region is also well known for its trekking, climbing and skiing areas.",
       color: "HotPink",
       hover_color: "default",
-      url: "default"
+      url: "himachal.html"
     },
    "16": {
       name: "Jharkhand",
       description: "Jharkhand has a unique geographical, demographic and historical composition.The name “Jharkhand” means “The Land of Forests” as the most of land is covered by forest. Jharkhand has underlined the distinctive tribal heritage and culture of the region as the primary reason for alternative administrative and political arrangements.There are several folk dances in Jharkhand, including Jhumair, Domkach, Lahasua, Vinsariya, Jhumta, Fagua, Painki, and Chhau.The major cultural festivals of Jharkhand includes karma, jitia, nawakhani, Sohrab/bandna, holi, sarna.",
       color: "MediumPurple",
       hover_color: "default",
-      url: "default"
+      url: "jharkhand.html"
     },
     "17": {
       name: "Karnataka",
       description: "Karnataka has a distinct art and culture informed by a long history of diverse linguistic and religious ethnicity. Apart from Kannadigas, Karnataka is home to Tuluvas, who also consider themselves as Kannadigas. Minor populations of Tibetan Buddhists and Siddhi tribes plus a few other ethnic groups also live in. The traditional folk arts are major theatrical forms of coastal Karnataka. Contemporary theatre culture in Karnataka is one of the most vibrant in India with organizations like Ninasam, Ranga Shankara and Rang on foundations laid down by the Gubbi Veeranna Nataka Company. Veeragase, Kamsale and Dollu Kunitha are popular dance forms. Bharatanatya also enjoys wide patronage in Karnataka.",
       color: "HotPink",
       hover_color: "karnataka.html",
-      url: "default"
+      url: "karnataka.html"
     },
     "18": {
       name: "Kerala",
@@ -203,7 +203,7 @@ var simplemaps_countrymap_mapdata={
       description: "Madhya Pradesh is a state present in central India and is also called the “Heart of India“.The vibrant colours, unique attires, and melodious music make all the folk dances in Madhya Pradesh exquisite. Gaur, Muria, Sugga, Saila, Karma, Kaksar, Chithirai Festival dance are notable and have their connotation.The fine artworks, hurled right from the heart of the nation endure a worldwide audience. This innate talent helps in producing handicrafts like - Woven cotton or silk sarees, fabrics with block prints, stuffed toys, floor coverings, bamboo work, cane work, jute work,  folk paintings, ornaments, dolls and papier-mache. ",
       color: "HotPink",
       hover_color: "default",
-      url: "default"
+      url: "mp.html"
     },
     "21": {
       name: "Maharashtra",
@@ -259,7 +259,7 @@ var simplemaps_countrymap_mapdata={
       description: "Punjab has one of the oldest and richest cultures of the world. Its diversity and uniqueness is evident in the Punjabi poetry, philosophy, spirituality, education, artistry, music, cuisine, science, technology, military warfare, architecture, traditions, values and history.Punjabis celebrate numerous religious and seasonal festivals, such as Dussehra, Diwali, Baisakhi, and many more. There are numerous anniversary celebrations as well in honour of the Gurus (the 10 religious leaders of Sikhism) and various saints.The traditional dress for Punjabi men is ‘Punjabi Kurta’ and ‘Tehmat’, especially the popular Muktsari style, which is being replaced by the kurta and pajama in the modern day Punjab.",
       color: "orange",
       hover_color: "default",
-      url: "default"
+      url: "punjab.html"
     },
     "29": {
       name: "Rajasthan",
@@ -287,18 +287,18 @@ var simplemaps_countrymap_mapdata={
       description: "In the context of Tripura, one of the seven sisters, it is the cultural cross-currents which unite the people in a spirit of amity and harmony. The undulating hillscape of the state-sixty percent of the Tripura’s territory is still covered with lush greenery of forest-resonate with the traditional tribal music and dances on ceremonial occasions.",
       color: "orange",
       hover_color: "default",
-      url: "default"
+      url: "Tripura.html"
     },
     "33": {
       name: "Uttar Pradesh",
       description: "Birthplace of the Ramayana and the Mahabharata, Uttar Pradesh has always influenced culture streams, most significant being those of Mahavira and Buddha. A blend of cultures, religions and languages, the state continues to thrive and set an example of a diverse society.",
       color: "GreenYellow",
       hover_color: "default",
-      url: "default"
+      url: "up.html"
     },
     "34": {
       name: "Uttaranchal",
-      description: "Uttarakhand, also known as Dev Bhoomi, has been the centre of religious and spiritual knowledge for ages.Uttarakhand has a ‘Pahari’ culture. Folk dance, music and festivals are a huge part of Uttarakhand culture. The land is blessed with the beauty of the Himalayas and ancient temples.The typical Hindu festivals such as Diwali, Holi and Navratri are celebrated here with much zeal. Along with this, the Garhwali culture has its festivals such as:Harela parv, phooldei, basant panchama, khichdi sankrant, ganga Dussehra.Jagars are a form of religious offering to our ancestors and their ghosts. Epics, such as Mahabharata and Ramayana, are recited. It is said the gods come down to earth and dance along with the people.",
+      description: "default",
       color: "yellow",
       hover_color: "default",
       url: "default"
@@ -312,21 +312,21 @@ var simplemaps_countrymap_mapdata={
     },
     "36": {
       name: "Jammu And Kashmir",
-      description: "Jammu Kashmir is a diverse blend of various cultures People from different religious and social practices of Muslim, Hindu, Sikh, and Buddhist have created a composite culture of the state which is called Kashmiriyat.Costumes of Jammu and Kashmir are well known for their embroidery and intricate designs, which reflect the richness of the culture and landscape of the region.The Pheran is a prominent attire for Kashmiri women. The Dumhal is a famous dance in the Kashmir valley, performed by men of the Wattal region. The women perform the Rouff, another traditional folk dance.",
+      description: "Here it goes",
       color: "MediumPurple",
       hover_color: "default",
-      url: "default"
+      url: "kashmir.html"
     },
     "37": {
       name: "Telangana",
-      description: "The Culture of Telangana in India has a cultural history of about 5,000 yearsTelangana is a storehouse of creativity which is prevalent in its collection of art and craft.  Developed in the 16th century, the Golconda style is an old method of blending foreign techniques. A dash of bright gold and white colour is used in the Golconda style.Telangana is home to diverse culture and religions. Bathukamma is a part of Dasara festivities which is unique to Telangana. Bonalu is another Hindu Festival, celebrated during  June/ July where Goddess Maa Kali is worshipped.",
+      description: "default",
       color: "orange",
       hover_color: "default",
-      url: "default"
+      url: "tel.html"
     },
     "38": {
       name: "Ladakh",
-      description: "The culture of Ladakh refers to the traditional customs, belief systems, political systems that are followed by Ladakhi people in India. The languages, religions, dance, music, architecture, food, and customs of the Ladakh region are similar to neighbouring Tibet.Ladakhi is the traditional language of Ladakh. The popular dances in Ladakh include the khatok chenmo, cham, etc. People of Ladakh also celebrate several festivals throughout the year, some of the most famous are Hemis Tsechu and Losar.",
+      description: "default",
       color: "GreenYellow",
       hover_color: "default",
       url: "default"
