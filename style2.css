@@ -75,11 +75,12 @@ a{
 
 .state-block{
   display:flex;
-  width:70%;
+  width:60%;
 }
 
 .ut-block{
   display:flex;
+  width: 30%
 }
 
 .States{
@@ -102,6 +103,7 @@ a{
 .state-title{
   display: block;
   font-family: 'Montserrat Alternates', sans-serif;
+  padding-left: 10%;
 }
 
 .row{
