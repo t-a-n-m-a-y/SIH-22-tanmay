@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="css/Nagaland_style.css">
+    <script src="https://kit.fontawesome.com/c2c2346d39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            
+            <ul class="menu-items">
+                <li><a href="#home">Tourism</a></li>
+                <li><a href="#about">Cuisine</a></li>
+                <li><a href="#food">Fauna</a></li>
+                
+            </ul>
+            <h1 class="logo">Nagaland</h1>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    </script>
+    <div id="progress">
+        <span id="progress-value">
+            &#x1F871;
+        </span>
+    </div> 
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border" id="home">
+                NAGALAND
+            </span>
+        </div>
+    </div>
+    
+    <section class="section section-light">
+        <h2>Tourism</h2>
+        <p>
+            Tourism experts contend that the state's uniqueness and strategic location in northeast India give Nagaland an advantage in tapping into the tourism sector for economic growth.The state has been extremely successful in promoting the great Hornbill Festival, which attracts Indian and foreign tourists alike. The key thrusts of Nagaland's tourism are its rich culture, showcasing of history and wildlife. Tourism infrastructure is rapidly improving and experts contend this is no longer an issue as was in the past.Local initiatives and tourism pioneers are now beginning to promote a socially responsible tourism model involving the participation of the councils, village elders, the church and the youth.
+        </p>
+    </section>
+
+    <div class="pcul2">
+        <div class="ptext">
+            <span class="border" id = "about">
+                CUISINE
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Cuisine</h2>
+        <p>
+            Nagaland is home to the bhut jolokia or ghost pepper, one of the hottest chilis in the world at 855,000 SHU on the Scoville scale. All the tribes of Nagaland have their own cuisine, and they use a lot of meat, fish, and fermented products in their dishes. However, the state dish is smoked pork cooked with fermented soya beans. Naga dishes use a lot of locally grown herbs, ghost peppers, ginger, and garlic. Famous dishes include snails cooked with pork and silkworm larvae, which is an expensive delicacy of the state. Galho is a vegetarian porridge cooked with rice, leaves, and condiments. Drinks include Zutho and Thutse, beers made with sticky rice.
+        </p>
+    </section>
+
+    <div class="pcul3">
+        <div class="ptext">
+            <span class="border" id="food">
+                FAUNA
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Fauna</h2>
+        <p>
+            Nagaland has a rich birdlife with more than 490 species.The great Indian hornbill has a place in Naga culture. Blyth's tragopan, a vulnerable species of galliform, is the state bird of Nagaland. It is sighted in Mount Japfü and Dzüko Valley of Kohima District, Satoi range in Zünheboto District and Pfütsero in Phek District.The state is also known as the "falcon capital of the world”.Mithun is the state animal of Nagaland and has been adopted as the official seal of the Government of Nagaland. It is ritually the most valued species in the state. To conserve and protect this animal in the northeast, the National Research Centre on Mithun (NRCM) was established by the Indian Council of Agricultural Research (ICAR) in 1988. Nagaland is home to 396 species of orchids, belonging to 92 genera of which 54 having horticultural and medicinal economic importance.Kopou (pictured right) is also used for festive hairstyle decoration by women in India's northeast. Rhododendron is the state flower. The state has at least four species which are endemic to the state.
+        </p>
+    </section>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border">
+                NAGALAND
+            </span>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                <li class="social-items"><a href="https://www.facebook.com/nagalandt/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/discovrnagaland"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/nagalandtourism/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+
+       <div class="outer-footer">Copyright &copy NotNegation. All Rights Reserved</div>
+   </footer>
+
+
+</body>
+</html>
