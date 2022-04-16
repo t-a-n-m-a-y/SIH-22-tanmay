@@ -326,7 +326,7 @@ var simplemaps_countrymap_mapdata={
     },
     "38": {
       name: "Ladakh",
-      description: "dThe culture of Ladakh refers to the traditional customs, belief systems, political systems that are followed by Ladakhi people in India. The languages, religions, dance, music, architecture, food, and customs of the Ladakh region are similar to neighbouring Tibet.Ladakhi is the traditional language of Ladakh. The popular dances in Ladakh include the khatok chenmo, cham, etc. People of Ladakh also celebrate several festivals throughout the year, some of the most famous are Hemis Tsechu and Losar.efault",
+      description: "The culture of Ladakh refers to the traditional customs, belief systems, political systems that are followed by Ladakhi people in India. The languages, religions, dance, music, architecture, food, and customs of the Ladakh region are similar to neighbouring Tibet.Ladakhi is the traditional language of Ladakh. The popular dances in Ladakh include the khatok chenmo, cham, etc. People of Ladakh also celebrate several festivals throughout the year, some of the most famous are Hemis Tsechu and Losar.efault",
       color: "GreenYellow",
       hover_color: "default",
       url: "default"
