@@ -114,19 +114,19 @@ body, html{
 
 
 .pcul1{
-    background-image:url('../images/dancegoa.png');
+    background-image:url('../images/goa1.png');
     min-height:100%;
 }
 
 
 .pcul2{
-    background-image:url('../images/theatregoa.png');
+    background-image:url('../images/dancegoa.png');
     min-height:400px;
 }
 
 
 .pcul3{
-    background-image:url('../images/filmgoa.png');
+    background-image:url('../images/theatregoa.png');
     min-height:400px;
 }
 
