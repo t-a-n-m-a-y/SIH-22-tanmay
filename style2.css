@@ -22,18 +22,20 @@ a{
   padding: .01% .01%;
   image-orientation: initial;
 }
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
 .container-fluid-3 {
   padding: .1% .1%;
   background-color: #dbf4ed;
   
 }
-img{
- width: 150px;
- height: 100px;
- vertical-align: middle;
-}
+
 span{
-  font-size: 30px;
+  font-size: 15px;
   text-align: middle;
 }
   @media (max-width: 1028px) {
