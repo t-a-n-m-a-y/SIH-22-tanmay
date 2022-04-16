@@ -22,6 +22,11 @@ a{
   padding: .01% .01%;
   image-orientation: initial;
 }
+.container-fluid-3 {
+  padding: .1% .1%;
+  background-color: #dbf4ed;
+  
+}
 img{
  width: 150px;
  height: 100px;
