@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="css/Chandigarh_style.css">
+    <script src="https://kit.fontawesome.com/c2c2346d39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            
+            <ul class="menu-items">
+                <li><a href="#home">Climate</a></li>
+                <li><a href="#about">Transport</a></li>
+                <li><a href="#food">Education</a></li>
+                
+            </ul>
+            <h1 class="logo">Chandigarh</h1>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    </script>
+    <div id="progress">
+        <span id="progress-value">
+            &#x1F871;
+        </span>
+    </div> 
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border" id="home">
+                CHANDIGARH
+            </span>
+        </div>
+    </div>
+    
+    <section class="section section-light">
+        <h2>Climate</h2>
+        <p>
+            Chandigarh has a humid subtropical climate characterized by a seasonal rhythm: very hot summers, mild winters, unreliable rainfall and great variation in temperature (−1 to 45 °C or 30.2 to 113.0 °F). The average annual rainfall is 1,110.7 millimeters or 43.73 inches.The city also receives occasional winter rains from the Western Disturbance originating over the Mediterranean Sea. The western disturbances usually bring rain predominantly from mid-December till the end of April which can be heavier sometimes with strong winds and hail if the weather turns colder (during March–April months) which usually proves disastrous to the crops. Cold winds usually tend to come from Himalayas that lie to the north, which receive snowfall during wintertime.
+
+        </p>
+    </section>
+
+    <div class="pcul2">
+        <div class="ptext">
+            <span class="border" id = "about">
+                TRANSPORT
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Transport</h2>
+        <p>
+            Chandigarh has the largest number of vehicles per capita in India.Wide, well-maintained roads and parking spaces all over the city ease local transport.The Chandigarh Transport Undertaking (CTU) operates public transport buses from its Inter State Bus Terminals (ISBT) in Sectors 17 and 43 of the city. CTU also operates frequent bus services to the neighboring states of Punjab, Haryana, Himachal Pradesh, and to Delhi.Chandigarh Junction railway station lies in the Northern Railway zone of the Indian Railways network and provides connectivity to most of the regions of India. The railway station also serves the neighboring town of Panchkula. There were long-standing proposals to develop a metro rail system in the city, which were formally scrapped in 2017.Chandigarh Airport has scheduled commercial flights to major cities of India. An international terminal was completed in 2015, and international flights to Dubai and Sharjah were started.
+
+        </p>
+    </section>
+
+    <div class="pcul3">
+        <div class="ptext">
+            <span class="border" id="food">
+                EDUCATION
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>EDUCATION</h2>
+        <p>
+            There are numerous educational institutions in Chandigarh. These range from privately and publicly operated schools to colleges. These include Panjab University, Post Graduate Institute of Medical Education and Research (PGIMER), Punjab Engineering College, National Institute of Technical Teacher Training and Research (NITTTR), Post Graduate Government College, and DAV College.According to Chandigarh administration's department of education, there are a total of 115 government schools in Chandigarh, including Government Model Senior Secondary School, Sector 16, Jawahar Navodaya Vidyalaya, Bhavan Vidyalaya, convent schools like St. Stephen's School, St. John's High School, Chandigarh, Sacred Heart Senior Secondary School, St. Kabir Public School and Carmel Convent School and other private schools like Delhi Public School and D.A.V. Public School.
+
+        </p>
+    </section>
+
+    <div class="pcul1">
+        <div class="ptext">
+            <span class="border">
+                CHANDIGARH
+            </span>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                <li class="social-items"><a href="https://www.facebook.com/tourismchandigarh/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/chdtourism"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/chandigarhtourism/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+
+       <div class="outer-footer">Copyright &copy NotNegation. All Rights Reserved</div>
+   </footer>
+
+
+</body>
+</html>
